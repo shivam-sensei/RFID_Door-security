@@ -170,7 +170,7 @@ def deleteMenu():
 
 if __name__ == "__main__":
     try:
-        uri = "mongodb+srv://happybirthday:KIEc69RJmDFmCFu5@galaxycluster.ivlxj.mongodb.net/"
+        uri = "" #generate a uri here.
         client = MongoClient(uri)
         database = client["labserver"]
         member_data = database["member_detail"]

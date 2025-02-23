@@ -4,7 +4,7 @@ from datetime import date, datetime
 
 def make_attendance(uid):                      #accessing database
 
-    uri = "mongodb+srv://happybirthday:KIEc69RJmDFmCFu5@galaxycluster.ivlxj.mongodb.net/"
+    uri = ""  #put your mongodb uri here
 
     dateToday = str(date.today().strftime("%d-%m-%Y"))
     now = datetime.now()

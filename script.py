@@ -7,7 +7,6 @@ from attendance_markup import make_attendance
 #returning False when not matching
 #returning Error when script doesn't run
 
-# AUTHORIZED_UID = "B0:5E:88:E"
 
 def setUpPort():
     global use
